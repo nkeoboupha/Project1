@@ -2,7 +2,7 @@
 
 ### Description
 
-Using Spring  Boot, create a REST Web App that simulates banking transactions.
+Using Spring Boot, create a REST Web App that simulates banking transactions.
 ### Requirements
 - [ ]  Customers of the bank should be able to register with a username and password, and apply to open an account
 - [ ] All interaction by the user should be done through the controller via HTTP Requests, following REST constraints
