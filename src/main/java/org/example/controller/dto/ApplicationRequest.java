@@ -20,6 +20,5 @@ public class ApplicationRequest {
     @NotBlank(message = "password is required")
     private String password;
 
-    @NotNull(message = "applicant list required")
     private List<User> applicants;
 }
