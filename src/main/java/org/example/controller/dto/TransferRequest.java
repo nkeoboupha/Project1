@@ -19,9 +19,9 @@ public class TransferRequest {
     @NotBlank(message = "password is required")
     private String password;
 
-    @NotBlank(message = "origin account Id is required")
-    private Integer accountIdFrom;
-
     @NotBlank(message = "destination account Id is required")
     private Integer accountIdTo;
+
+    @NotBlank(message = "amount is required")
+    private Double amount;
 }

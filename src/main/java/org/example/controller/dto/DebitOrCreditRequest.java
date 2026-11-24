@@ -19,6 +19,6 @@ public class DebitOrCreditRequest {
     @NotBlank(message = "password is required")
     private String password;
 
-    @NotBlank(message = "account Id is required")
-    private Integer accountId;
+    @NotBlank(message = "amount is required")
+    private Double amount;
 }
